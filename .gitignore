@@ -1,0 +1,38 @@
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local test files and folders
+test_files/
+sample.txt
+hashguard_v1_backup.py
+invalid_baseline.json
+
+# Local baseline files
+hashguard_baseline.json
+hashguard_folder_baseline.json
+clean_baseline.json
+
+# Local validation evidence
+hashguard_test_results.txt
+hashguard_source_hash.txt
+hashguard_tests_hash.txt
+
+# Temporary files
+*.tmp
+*.bak
